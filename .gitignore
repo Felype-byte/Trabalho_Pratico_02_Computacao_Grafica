@@ -1,0 +1,24 @@
+# Pastas de dependências
+node_modules/
+
+# Pastas de Build e Compilação (o que o Vite gera)
+dist/
+dist-electron/
+
+# Pastas do Electron Builder (os seus .exe, instaladores e logs)
+release/
+*.log
+*.tmp
+
+# Pastas de ambiente e configuração de sistema
+.env
+.env.local
+.DS_Store
+Thumbs.db
+Executavel/
+
+# Pastas de backup do VS Code
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
